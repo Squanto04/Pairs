@@ -13,7 +13,9 @@
 		35427408236350C000C665C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35427407236350C000C665C2 /* Assets.xcassets */; };
 		3542740B236350C000C665C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35427409236350C000C665C2 /* LaunchScreen.storyboard */; };
 		354274152363520200C665C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354274142363520200C665C2 /* Person.swift */; };
+		354274192363531100C665C2 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354274182363531100C665C2 /* Group.swift */; };
 		3542741B2363537000C665C2 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542741A2363537000C665C2 /* PersonController.swift */; };
+		3542741D2363537D00C665C2 /* GroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542741C2363537D00C665C2 /* GroupController.swift */; };
 		354274202363542000C665C2 /* PairRandomizerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542741F2363542000C665C2 /* PairRandomizerTableViewController.swift */; };
 		35427423236354E700C665C2 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35427422236354E700C665C2 /* AlertHelper.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +29,9 @@
 		3542740A236350C000C665C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3542740C236350C000C665C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		354274142363520200C665C2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		354274182363531100C665C2 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		3542741A2363537000C665C2 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		3542741C2363537D00C665C2 /* GroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupController.swift; sourceTree = "<group>"; };
 		3542741F2363542000C665C2 /* PairRandomizerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRandomizerTableViewController.swift; sourceTree = "<group>"; };
 		35427422236354E700C665C2 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				354274142363520200C665C2 /* Person.swift */,
+				354274182363531100C665C2 /* Group.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				3542741A2363537000C665C2 /* PersonController.swift */,
+				3542741C2363537D00C665C2 /* GroupController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 				35427401236350BF00C665C2 /* SceneDelegate.swift in Sources */,
 				3542741B2363537000C665C2 /* PersonController.swift in Sources */,
 				35427423236354E700C665C2 /* AlertHelper.swift in Sources */,
+				354274192363531100C665C2 /* Group.swift in Sources */,
 				354274202363542000C665C2 /* PairRandomizerTableViewController.swift in Sources */,
+				3542741D2363537D00C665C2 /* GroupController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
